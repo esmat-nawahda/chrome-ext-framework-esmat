@@ -1,0 +1,14 @@
+{
+  "name": "Get All Images On The This Page",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Get Images On This Page Only By Clicking On The Icon",
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [
+  "images/1.jpg"
+  ],
+  "permissions": ["tabs", "<all_urls>"]
+}
